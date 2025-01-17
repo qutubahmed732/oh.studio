@@ -96,3 +96,18 @@ a {
     color: gray;
     cursor: pointer;
 }
+
+@media (max-width: 820px){
+    .heading {
+        font-size: 1.2rem;
+    }
+    #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
+        gap: 1.5rem;
+    }
+    .social-media-apps{
+        font-weight: normal;
+    }
+}
